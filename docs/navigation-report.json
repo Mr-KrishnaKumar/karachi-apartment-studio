@@ -1,0 +1,69 @@
+{
+  "gridStep": 0.055,
+  "playerRadius": 0.22,
+  "allDoorsOpen": true,
+  "gridReachable": 15117,
+  "rooms": [
+    {
+      "room": "bed1",
+      "reachableCells": 1330
+    },
+    {
+      "room": "drawing",
+      "reachableCells": 2132
+    },
+    {
+      "room": "bed2",
+      "reachableCells": 1493
+    },
+    {
+      "room": "bed3",
+      "reachableCells": 1481
+    },
+    {
+      "room": "lounge",
+      "reachableCells": 3823
+    },
+    {
+      "room": "kitchen",
+      "reachableCells": 294
+    },
+    {
+      "room": "bath1",
+      "reachableCells": 231
+    },
+    {
+      "room": "bath2",
+      "reachableCells": 279
+    },
+    {
+      "room": "bath3",
+      "reachableCells": 280
+    },
+    {
+      "room": "store",
+      "reachableCells": 148
+    },
+    {
+      "room": "terrace",
+      "reachableCells": 529
+    },
+    {
+      "room": "balcony",
+      "reachableCells": 216
+    },
+    {
+      "room": "powder",
+      "reachableCells": 52
+    },
+    {
+      "room": "foyer",
+      "reachableCells": 791
+    },
+    {
+      "room": "hall",
+      "reachableCells": 1108
+    }
+  ],
+  "limitation": "This verifies a human walking collider, not wheelchair accessibility or exact door swept-volume clearance."
+}

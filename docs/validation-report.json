@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-10-26T12:25:15.235Z",
+  "checks": [
+    {
+      "name": "Exact imperial conversions",
+      "passed": true
+    },
+    {
+      "name": "Room count and required spaces",
+      "passed": true
+    },
+    {
+      "name": "All labeled rooms have the stated clear dimensions",
+      "passed": true
+    },
+    {
+      "name": "Clear room rectangles do not overlap",
+      "passed": true
+    },
+    {
+      "name": "Shared store/bathroom wall is aligned",
+      "passed": true,
+      "detail": "Store east and bathroom west share one wall centerline."
+    },
+    {
+      "name": "Wall centerline segments do not duplicate each other",
+      "passed": true
+    },
+    {
+      "name": "Door opening coverage and minimum clear width",
+      "passed": true,
+      "detail": "Minimum provisional door: 0.75 m; walk collider diameter 0.44 m."
+    },
+    {
+      "name": "Furniture stays inside its assigned room or shared dining space",
+      "passed": true
+    },
+    {
+      "name": "Preset switching never changes structure",
+      "passed": true
+    },
+    {
+      "name": "Closed entrance blocks entry; open entrance admits entry",
+      "passed": true
+    },
+    {
+      "name": "Sliding movement cannot tunnel through walls",
+      "passed": true,
+      "detail": "Stopped at x=3.900 m before Bedroom 1 east wall."
+    },
+    {
+      "name": "All rooms are reachable from the entrance with doors open and furniture present",
+      "passed": true,
+      "detail": "15 spaces reachable on a 0.055 m grid with furniture and open door leaves."
+    }
+  ]
+}

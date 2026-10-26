@@ -1,0 +1,1750 @@
+{
+  "units": "meters",
+  "axes": {
+    "x": "right in source",
+    "y": "up",
+    "z": "down in source"
+  },
+  "precision": "Room labels exact; positions and openings inferred; see assumptions",
+  "config": {
+    "wall": 0.15239999999999998,
+    "exteriorWall": 0.15239999999999998,
+    "height": 3.048,
+    "eye": 1.65,
+    "radius": 0.22,
+    "doorHeight": 2.1336,
+    "windowSill": 0.85,
+    "windowHeight": 1.5,
+    "entranceWidth": 1.0668,
+    "doorWidth": 0.9,
+    "bathroomDoorWidth": 0.8
+  },
+  "advertisedArea": {
+    "netFt2": 1383,
+    "circulationFt2": 171,
+    "totalFt2": 1554
+  },
+  "rooms": [
+    {
+      "id": "bed1",
+      "name": "Bedroom 1",
+      "x": 0,
+      "z": 0,
+      "w": 4.4196,
+      "d": 3.6576,
+      "label": "14′6″ × 12′",
+      "type": "bedroom"
+    },
+    {
+      "id": "drawing",
+      "name": "Drawing room",
+      "x": 5.7912,
+      "z": 0,
+      "w": 4.572,
+      "d": 3.6576,
+      "label": "15′ × 12′",
+      "type": "drawing"
+    },
+    {
+      "id": "bed2",
+      "name": "Bedroom 2",
+      "x": 0,
+      "z": 7.7724,
+      "w": 3.81,
+      "d": 4.2672,
+      "label": "12′6″ × 14′",
+      "type": "bedroom"
+    },
+    {
+      "id": "bed3",
+      "name": "Bedroom 3",
+      "x": 7.7724,
+      "z": 8.0772,
+      "w": 3.81,
+      "d": 3.9623999999999997,
+      "label": "12′6″ × 13′",
+      "type": "bedroom"
+    },
+    {
+      "id": "lounge",
+      "name": "Central lounge",
+      "x": 3.9624,
+      "z": 3.81,
+      "w": 3.6576,
+      "d": 6.096,
+      "label": "12′ × 20′",
+      "type": "lounge"
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen",
+      "x": 7.7724,
+      "z": 3.81,
+      "w": 2.7432,
+      "d": 2.1336,
+      "label": "9′ × 7′",
+      "type": "kitchen"
+    },
+    {
+      "id": "bath1",
+      "name": "Bathroom 1",
+      "x": 0,
+      "z": 3.81,
+      "w": 2.4383999999999997,
+      "d": 1.8288,
+      "label": "8′ × 6′",
+      "type": "bath"
+    },
+    {
+      "id": "bath2",
+      "name": "Bathroom 2",
+      "x": 0,
+      "z": 5.7912,
+      "w": 2.4383999999999997,
+      "d": 1.8288,
+      "label": "8′ × 6′",
+      "type": "bath"
+    },
+    {
+      "id": "bath3",
+      "name": "Bathroom 3",
+      "x": 9.2964,
+      "z": 6.096,
+      "w": 2.4383999999999997,
+      "d": 1.8288,
+      "label": "8′ × 6′",
+      "type": "bath"
+    },
+    {
+      "id": "store",
+      "name": "Store",
+      "x": 7.7724,
+      "z": 6.096,
+      "w": 1.3716,
+      "d": 1.8288,
+      "label": "4′6″ × 6′",
+      "type": "store"
+    },
+    {
+      "id": "terrace",
+      "name": "Terrace",
+      "x": 3.9624,
+      "z": 10.0584,
+      "w": 3.6576,
+      "d": 1.524,
+      "label": "12′ × 5′",
+      "type": "outdoor"
+    },
+    {
+      "id": "balcony",
+      "name": "Balcony",
+      "x": -0.9144,
+      "z": 0,
+      "w": 0.762,
+      "d": 2.7432,
+      "label": "2′6″ × 9′",
+      "type": "outdoor"
+    },
+    {
+      "id": "powder",
+      "name": "Powder room",
+      "x": 10.5156,
+      "z": 0,
+      "w": 1.0668,
+      "d": 1.8288,
+      "label": "3′6″ × 6′*",
+      "type": "bath"
+    },
+    {
+      "id": "foyer",
+      "name": "Entrance passage",
+      "x": 4.572,
+      "z": 0,
+      "w": 1.0668,
+      "d": 3.81,
+      "label": "3′6″ clear*",
+      "type": "circulation"
+    },
+    {
+      "id": "hall",
+      "name": "Dining / circulation",
+      "x": 2.5908,
+      "z": 3.81,
+      "w": 1.3716,
+      "d": 3.81,
+      "label": "4′0″ minimum clear*",
+      "type": "circulation"
+    }
+  ],
+  "walls": [
+    {
+      "id": "wall-0",
+      "axis": "h",
+      "c": -0.0762,
+      "a": -0.9906,
+      "b": -0.0762,
+      "owners": [
+        "balcony"
+      ],
+      "kind": "solid",
+      "parapet": true
+    },
+    {
+      "id": "wall-1",
+      "axis": "h",
+      "c": -0.0762,
+      "a": -0.0762,
+      "b": 1.05,
+      "owners": [
+        "bed1"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-2",
+      "axis": "h",
+      "c": -0.0762,
+      "a": 1.05,
+      "b": 3.3,
+      "owners": [
+        "bed1"
+      ],
+      "opening": "bed1-window",
+      "kind": "window",
+      "parapet": false
+    },
+    {
+      "id": "wall-3",
+      "axis": "h",
+      "c": -0.0762,
+      "a": 3.3,
+      "b": 4.4958,
+      "owners": [
+        "bed1"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-4",
+      "axis": "h",
+      "c": -0.0762,
+      "a": 4.4958,
+      "b": 4.572,
+      "owners": [
+        "foyer"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-5",
+      "axis": "h",
+      "c": -0.0762,
+      "a": 4.572,
+      "b": 5.6388,
+      "owners": [
+        "foyer"
+      ],
+      "opening": "entrance",
+      "kind": "door",
+      "parapet": false
+    },
+    {
+      "id": "wall-6",
+      "axis": "h",
+      "c": -0.0762,
+      "a": 5.6388,
+      "b": 5.715,
+      "owners": [
+        "foyer"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-7",
+      "axis": "h",
+      "c": -0.0762,
+      "a": 5.715,
+      "b": 7.2,
+      "owners": [
+        "drawing"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-8",
+      "axis": "h",
+      "c": -0.0762,
+      "a": 7.2,
+      "b": 8.9,
+      "owners": [
+        "drawing"
+      ],
+      "opening": "drawing-window",
+      "kind": "window",
+      "parapet": false
+    },
+    {
+      "id": "wall-9",
+      "axis": "h",
+      "c": -0.0762,
+      "a": 8.9,
+      "b": 10.4394,
+      "owners": [
+        "drawing"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-10",
+      "axis": "h",
+      "c": -0.0762,
+      "a": 10.4394,
+      "b": 11.6586,
+      "owners": [
+        "powder"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-11",
+      "axis": "h",
+      "c": 3.7338,
+      "a": -0.0762,
+      "b": 2.5146,
+      "owners": [
+        "bed1",
+        "bath1"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-12",
+      "axis": "h",
+      "c": 3.7338,
+      "a": 2.5146,
+      "b": 3.8862,
+      "owners": [
+        "bed1"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-13",
+      "axis": "h",
+      "c": 3.7338,
+      "a": 3.8862,
+      "b": 4.4958,
+      "owners": [
+        "bed1",
+        "lounge"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-14",
+      "axis": "h",
+      "c": 3.7338,
+      "a": 4.4958,
+      "b": 5.715,
+      "owners": [
+        "lounge"
+      ],
+      "opening": "entry-lounge",
+      "kind": "passage",
+      "parapet": false
+    },
+    {
+      "id": "wall-15",
+      "axis": "h",
+      "c": 3.7338,
+      "a": 5.715,
+      "b": 7.6962,
+      "owners": [
+        "drawing",
+        "lounge"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-16",
+      "axis": "h",
+      "c": 3.7338,
+      "a": 7.6962,
+      "b": 10.4394,
+      "owners": [
+        "drawing",
+        "kitchen"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-17",
+      "axis": "h",
+      "c": 3.7338,
+      "a": 10.4394,
+      "b": 10.5918,
+      "owners": [
+        "kitchen"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-18",
+      "axis": "v",
+      "c": -0.0762,
+      "a": -0.0762,
+      "b": 0.35,
+      "owners": [
+        "bed1"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-19",
+      "axis": "v",
+      "c": -0.0762,
+      "a": 0.35,
+      "b": 1.15,
+      "owners": [
+        "bed1"
+      ],
+      "opening": "balcony-door",
+      "kind": "door",
+      "parapet": false
+    },
+    {
+      "id": "wall-20",
+      "axis": "v",
+      "c": -0.0762,
+      "a": 1.15,
+      "b": 3.7338,
+      "owners": [
+        "bed1"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-21",
+      "axis": "v",
+      "c": -0.0762,
+      "a": 3.7338,
+      "b": 4.15,
+      "owners": [
+        "bath1"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-22",
+      "axis": "v",
+      "c": -0.0762,
+      "a": 4.15,
+      "b": 4.65,
+      "owners": [
+        "bath1"
+      ],
+      "opening": "bath1-window",
+      "kind": "window",
+      "parapet": false
+    },
+    {
+      "id": "wall-23",
+      "axis": "v",
+      "c": -0.0762,
+      "a": 4.65,
+      "b": 5.715,
+      "owners": [
+        "bath1"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-24",
+      "axis": "v",
+      "c": -0.0762,
+      "a": 5.715,
+      "b": 6.8,
+      "owners": [
+        "bath2"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-25",
+      "axis": "v",
+      "c": -0.0762,
+      "a": 6.8,
+      "b": 7.3,
+      "owners": [
+        "bath2"
+      ],
+      "opening": "bath2-window",
+      "kind": "window",
+      "parapet": false
+    },
+    {
+      "id": "wall-26",
+      "axis": "v",
+      "c": -0.0762,
+      "a": 7.3,
+      "b": 7.6962,
+      "owners": [
+        "bath2"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-27",
+      "axis": "v",
+      "c": -0.0762,
+      "a": 7.6962,
+      "b": 9.45,
+      "owners": [
+        "bed2"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-28",
+      "axis": "v",
+      "c": -0.0762,
+      "a": 9.45,
+      "b": 10.65,
+      "owners": [
+        "bed2"
+      ],
+      "opening": "bed2-west-window",
+      "kind": "window",
+      "parapet": false
+    },
+    {
+      "id": "wall-29",
+      "axis": "v",
+      "c": -0.0762,
+      "a": 10.65,
+      "b": 12.1158,
+      "owners": [
+        "bed2"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-30",
+      "axis": "v",
+      "c": 4.4958,
+      "a": -0.0762,
+      "b": 2.55,
+      "owners": [
+        "bed1"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-31",
+      "axis": "v",
+      "c": 4.4958,
+      "a": 2.55,
+      "b": 3.45,
+      "owners": [
+        "bed1"
+      ],
+      "opening": "bed1-door",
+      "kind": "door",
+      "parapet": false
+    },
+    {
+      "id": "wall-32",
+      "axis": "v",
+      "c": 4.4958,
+      "a": 3.45,
+      "b": 3.7338,
+      "owners": [
+        "bed1"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-33",
+      "axis": "v",
+      "c": 5.715,
+      "a": -0.0762,
+      "b": 2.55,
+      "owners": [
+        "drawing"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-34",
+      "axis": "v",
+      "c": 5.715,
+      "a": 2.55,
+      "b": 3.45,
+      "owners": [
+        "drawing"
+      ],
+      "opening": "drawing-door",
+      "kind": "door",
+      "parapet": false
+    },
+    {
+      "id": "wall-35",
+      "axis": "v",
+      "c": 5.715,
+      "a": 3.45,
+      "b": 3.7338,
+      "owners": [
+        "drawing"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-36",
+      "axis": "v",
+      "c": 10.4394,
+      "a": -0.0762,
+      "b": 0.8,
+      "owners": [
+        "drawing",
+        "powder"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-37",
+      "axis": "v",
+      "c": 10.4394,
+      "a": 0.8,
+      "b": 1.55,
+      "owners": [
+        "drawing",
+        "powder"
+      ],
+      "opening": "powder-door",
+      "kind": "door",
+      "parapet": false
+    },
+    {
+      "id": "wall-38",
+      "axis": "v",
+      "c": 10.4394,
+      "a": 1.55,
+      "b": 1.905,
+      "owners": [
+        "drawing",
+        "powder"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-39",
+      "axis": "v",
+      "c": 10.4394,
+      "a": 1.905,
+      "b": 2.02,
+      "owners": [
+        "drawing"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-40",
+      "axis": "v",
+      "c": 10.4394,
+      "a": 2.02,
+      "b": 3.1,
+      "owners": [
+        "drawing"
+      ],
+      "opening": "drawing-east-window",
+      "kind": "window",
+      "parapet": false
+    },
+    {
+      "id": "wall-41",
+      "axis": "v",
+      "c": 10.4394,
+      "a": 3.1,
+      "b": 3.7338,
+      "owners": [
+        "drawing"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-42",
+      "axis": "h",
+      "c": 7.6962,
+      "a": -0.0762,
+      "b": 2.5146,
+      "owners": [
+        "bed2",
+        "bath2"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-43",
+      "axis": "h",
+      "c": 7.6962,
+      "a": 2.5146,
+      "b": 2.75,
+      "owners": [
+        "bed2"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-44",
+      "axis": "h",
+      "c": 7.6962,
+      "a": 2.75,
+      "b": 3.65,
+      "owners": [
+        "bed2"
+      ],
+      "opening": "bed2-door",
+      "kind": "door",
+      "parapet": false
+    },
+    {
+      "id": "wall-45",
+      "axis": "h",
+      "c": 7.6962,
+      "a": 3.65,
+      "b": 3.8862,
+      "owners": [
+        "bed2"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-46",
+      "axis": "h",
+      "c": 12.1158,
+      "a": -0.0762,
+      "b": 1.05,
+      "owners": [
+        "bed2"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-47",
+      "axis": "h",
+      "c": 12.1158,
+      "a": 1.05,
+      "b": 2.8,
+      "owners": [
+        "bed2"
+      ],
+      "opening": "bed2-window",
+      "kind": "window",
+      "parapet": false
+    },
+    {
+      "id": "wall-48",
+      "axis": "h",
+      "c": 12.1158,
+      "a": 2.8,
+      "b": 3.8862,
+      "owners": [
+        "bed2"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-49",
+      "axis": "h",
+      "c": 12.1158,
+      "a": 7.6962,
+      "b": 9,
+      "owners": [
+        "bed3"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-50",
+      "axis": "h",
+      "c": 12.1158,
+      "a": 9,
+      "b": 10.5,
+      "owners": [
+        "bed3"
+      ],
+      "opening": "bed3-window",
+      "kind": "window",
+      "parapet": false
+    },
+    {
+      "id": "wall-51",
+      "axis": "h",
+      "c": 12.1158,
+      "a": 10.5,
+      "b": 11.6586,
+      "owners": [
+        "bed3"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-52",
+      "axis": "v",
+      "c": 3.8862,
+      "a": 7.6962,
+      "b": 9.9822,
+      "owners": [
+        "bed2",
+        "lounge"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-53",
+      "axis": "v",
+      "c": 3.8862,
+      "a": 9.9822,
+      "b": 11.6586,
+      "owners": [
+        "bed2",
+        "terrace"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-54",
+      "axis": "v",
+      "c": 3.8862,
+      "a": 11.6586,
+      "b": 12.1158,
+      "owners": [
+        "bed2"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-55",
+      "axis": "h",
+      "c": 8.001,
+      "a": 7.6962,
+      "b": 9.2202,
+      "owners": [
+        "bed3",
+        "store"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-56",
+      "axis": "h",
+      "c": 8.001,
+      "a": 9.2202,
+      "b": 9.3,
+      "owners": [
+        "bed3",
+        "bath3"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-57",
+      "axis": "h",
+      "c": 8.001,
+      "a": 9.3,
+      "b": 10.1,
+      "owners": [
+        "bed3",
+        "bath3"
+      ],
+      "opening": "bath3-door",
+      "kind": "door",
+      "parapet": false
+    },
+    {
+      "id": "wall-58",
+      "axis": "h",
+      "c": 8.001,
+      "a": 10.1,
+      "b": 11.6586,
+      "owners": [
+        "bed3",
+        "bath3"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-59",
+      "axis": "h",
+      "c": 8.001,
+      "a": 11.6586,
+      "b": 11.811,
+      "owners": [
+        "bath3"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-60",
+      "axis": "v",
+      "c": 7.6962,
+      "a": 3.7338,
+      "b": 4.16,
+      "owners": [
+        "lounge",
+        "kitchen"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-61",
+      "axis": "v",
+      "c": 7.6962,
+      "a": 4.16,
+      "b": 5.21,
+      "owners": [
+        "lounge",
+        "kitchen"
+      ],
+      "opening": "kitchen-door",
+      "kind": "passage",
+      "parapet": false
+    },
+    {
+      "id": "wall-62",
+      "axis": "v",
+      "c": 7.6962,
+      "a": 5.21,
+      "b": 6.0198,
+      "owners": [
+        "lounge",
+        "kitchen"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-63",
+      "axis": "v",
+      "c": 7.6962,
+      "a": 6.0198,
+      "b": 6.65,
+      "owners": [
+        "lounge",
+        "store"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-64",
+      "axis": "v",
+      "c": 7.6962,
+      "a": 6.65,
+      "b": 7.45,
+      "owners": [
+        "lounge",
+        "store"
+      ],
+      "opening": "store-door",
+      "kind": "door",
+      "parapet": false
+    },
+    {
+      "id": "wall-65",
+      "axis": "v",
+      "c": 7.6962,
+      "a": 7.45,
+      "b": 8.001,
+      "owners": [
+        "lounge",
+        "store"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-66",
+      "axis": "v",
+      "c": 7.6962,
+      "a": 8.001,
+      "b": 8.25,
+      "owners": [
+        "bed3",
+        "lounge"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-67",
+      "axis": "v",
+      "c": 7.6962,
+      "a": 8.25,
+      "b": 9.15,
+      "owners": [
+        "bed3",
+        "lounge"
+      ],
+      "opening": "bed3-door",
+      "kind": "door",
+      "parapet": false
+    },
+    {
+      "id": "wall-68",
+      "axis": "v",
+      "c": 7.6962,
+      "a": 9.15,
+      "b": 9.9822,
+      "owners": [
+        "bed3",
+        "lounge"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-69",
+      "axis": "v",
+      "c": 7.6962,
+      "a": 9.9822,
+      "b": 11.6586,
+      "owners": [
+        "bed3",
+        "terrace"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-70",
+      "axis": "v",
+      "c": 7.6962,
+      "a": 11.6586,
+      "b": 12.1158,
+      "owners": [
+        "bed3"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-71",
+      "axis": "v",
+      "c": 11.6586,
+      "a": -0.0762,
+      "b": 1.905,
+      "owners": [
+        "powder"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-72",
+      "axis": "v",
+      "c": 11.6586,
+      "a": 8.001,
+      "b": 12.1158,
+      "owners": [
+        "bed3"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-73",
+      "axis": "h",
+      "c": 9.9822,
+      "a": 3.8862,
+      "b": 4.12,
+      "owners": [
+        "lounge",
+        "terrace"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-74",
+      "axis": "h",
+      "c": 9.9822,
+      "a": 4.12,
+      "b": 5.32,
+      "owners": [
+        "lounge",
+        "terrace"
+      ],
+      "opening": "terrace-door",
+      "kind": "door",
+      "parapet": false
+    },
+    {
+      "id": "wall-75",
+      "axis": "h",
+      "c": 9.9822,
+      "a": 5.32,
+      "b": 7.6962,
+      "owners": [
+        "lounge",
+        "terrace"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-76",
+      "axis": "h",
+      "c": 6.0198,
+      "a": 7.6962,
+      "b": 9.2202,
+      "owners": [
+        "kitchen",
+        "store"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-77",
+      "axis": "h",
+      "c": 6.0198,
+      "a": 9.2202,
+      "b": 10.5918,
+      "owners": [
+        "kitchen",
+        "bath3"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-78",
+      "axis": "h",
+      "c": 6.0198,
+      "a": 10.5918,
+      "b": 10.86,
+      "owners": [
+        "bath3"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-79",
+      "axis": "h",
+      "c": 6.0198,
+      "a": 10.86,
+      "b": 11.36,
+      "owners": [
+        "bath3"
+      ],
+      "opening": "bath3-window",
+      "kind": "window",
+      "parapet": false
+    },
+    {
+      "id": "wall-80",
+      "axis": "h",
+      "c": 6.0198,
+      "a": 11.36,
+      "b": 11.811,
+      "owners": [
+        "bath3"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-81",
+      "axis": "v",
+      "c": 10.5918,
+      "a": 3.7338,
+      "b": 4.35,
+      "owners": [
+        "kitchen"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-82",
+      "axis": "v",
+      "c": 10.5918,
+      "a": 4.35,
+      "b": 5.35,
+      "owners": [
+        "kitchen"
+      ],
+      "opening": "kitchen-window",
+      "kind": "window",
+      "parapet": false
+    },
+    {
+      "id": "wall-83",
+      "axis": "v",
+      "c": 10.5918,
+      "a": 5.35,
+      "b": 6.0198,
+      "owners": [
+        "kitchen"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-84",
+      "axis": "h",
+      "c": 5.715,
+      "a": -0.0762,
+      "b": 2.5146,
+      "owners": [
+        "bath1",
+        "bath2"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-85",
+      "axis": "v",
+      "c": 2.5146,
+      "a": 3.7338,
+      "b": 4.65,
+      "owners": [
+        "bath1"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-86",
+      "axis": "v",
+      "c": 2.5146,
+      "a": 4.65,
+      "b": 5.45,
+      "owners": [
+        "bath1"
+      ],
+      "opening": "bath1-door",
+      "kind": "door",
+      "parapet": false
+    },
+    {
+      "id": "wall-87",
+      "axis": "v",
+      "c": 2.5146,
+      "a": 5.45,
+      "b": 5.715,
+      "owners": [
+        "bath1"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-88",
+      "axis": "v",
+      "c": 2.5146,
+      "a": 5.715,
+      "b": 5.95,
+      "owners": [
+        "bath2"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-89",
+      "axis": "v",
+      "c": 2.5146,
+      "a": 5.95,
+      "b": 6.75,
+      "owners": [
+        "bath2"
+      ],
+      "opening": "bath2-door",
+      "kind": "door",
+      "parapet": false
+    },
+    {
+      "id": "wall-90",
+      "axis": "v",
+      "c": 2.5146,
+      "a": 6.75,
+      "b": 7.6962,
+      "owners": [
+        "bath2"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-91",
+      "axis": "v",
+      "c": 9.2202,
+      "a": 6.0198,
+      "b": 8.001,
+      "owners": [
+        "bath3",
+        "store"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-92",
+      "axis": "v",
+      "c": 11.811,
+      "a": 6.0198,
+      "b": 8.001,
+      "owners": [
+        "bath3"
+      ],
+      "kind": "solid",
+      "parapet": false
+    },
+    {
+      "id": "wall-93",
+      "axis": "h",
+      "c": 11.6586,
+      "a": 3.8862,
+      "b": 7.6962,
+      "owners": [
+        "terrace"
+      ],
+      "kind": "solid",
+      "parapet": true
+    },
+    {
+      "id": "wall-94",
+      "axis": "h",
+      "c": 2.8194,
+      "a": -0.9906,
+      "b": -0.0762,
+      "owners": [
+        "balcony"
+      ],
+      "kind": "solid",
+      "parapet": true
+    },
+    {
+      "id": "wall-95",
+      "axis": "v",
+      "c": -0.9906,
+      "a": -0.0762,
+      "b": 2.8194,
+      "owners": [
+        "balcony"
+      ],
+      "kind": "solid",
+      "parapet": true
+    },
+    {
+      "id": "wall-96",
+      "axis": "h",
+      "c": 1.905,
+      "a": 10.4394,
+      "b": 11.6586,
+      "owners": [
+        "powder"
+      ],
+      "kind": "solid",
+      "parapet": false
+    }
+  ],
+  "openings": [
+    {
+      "id": "entrance",
+      "axis": "h",
+      "c": -0.07619999999999999,
+      "a": 4.572,
+      "b": 5.6388,
+      "kind": "door",
+      "rooms": [
+        "outside",
+        "foyer"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "entry-lounge",
+      "axis": "h",
+      "c": 3.7338,
+      "a": 4.4958,
+      "b": 5.715,
+      "kind": "passage",
+      "rooms": [
+        "foyer",
+        "lounge"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "bed1-door",
+      "axis": "v",
+      "c": 4.4958,
+      "a": 2.55,
+      "b": 3.45,
+      "kind": "door",
+      "swing": -1,
+      "rooms": [
+        "foyer",
+        "bed1"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "drawing-door",
+      "axis": "v",
+      "c": 5.715,
+      "a": 2.55,
+      "b": 3.45,
+      "kind": "door",
+      "rooms": [
+        "foyer",
+        "drawing"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "bed2-door",
+      "axis": "h",
+      "c": 7.6962,
+      "a": 2.75,
+      "b": 3.65,
+      "kind": "door",
+      "rooms": [
+        "hall",
+        "bed2"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "bed3-door",
+      "axis": "v",
+      "c": 7.6962,
+      "a": 8.25,
+      "b": 9.15,
+      "kind": "door",
+      "rooms": [
+        "lounge",
+        "bed3"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "kitchen-door",
+      "axis": "v",
+      "c": 7.6962,
+      "a": 4.16,
+      "b": 5.21,
+      "kind": "passage",
+      "rooms": [
+        "lounge",
+        "kitchen"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "bath1-door",
+      "axis": "v",
+      "c": 2.5146,
+      "a": 4.65,
+      "b": 5.45,
+      "kind": "door",
+      "swing": -1,
+      "rooms": [
+        "hall",
+        "bath1"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "bath2-door",
+      "axis": "v",
+      "c": 2.5146,
+      "a": 5.95,
+      "b": 6.75,
+      "kind": "door",
+      "swing": -1,
+      "rooms": [
+        "hall",
+        "bath2"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "store-door",
+      "axis": "v",
+      "c": 7.6962,
+      "a": 6.65,
+      "b": 7.45,
+      "kind": "door",
+      "rooms": [
+        "lounge",
+        "store"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "bath3-door",
+      "axis": "h",
+      "c": 8.001,
+      "a": 9.3,
+      "b": 10.1,
+      "kind": "door",
+      "swing": -1,
+      "rooms": [
+        "bed3",
+        "bath3"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "powder-door",
+      "axis": "v",
+      "c": 10.4394,
+      "a": 0.8,
+      "b": 1.55,
+      "kind": "door",
+      "rooms": [
+        "drawing",
+        "powder"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "terrace-door",
+      "axis": "h",
+      "c": 9.9822,
+      "a": 4.12,
+      "b": 5.32,
+      "kind": "door",
+      "rooms": [
+        "lounge",
+        "terrace"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "balcony-door",
+      "axis": "v",
+      "c": -0.07619999999999999,
+      "a": 0.35,
+      "b": 1.15,
+      "kind": "door",
+      "rooms": [
+        "bed1",
+        "balcony"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "bed1-window",
+      "axis": "h",
+      "c": -0.07619999999999999,
+      "a": 1.05,
+      "b": 3.3,
+      "kind": "window",
+      "rooms": [
+        "bed1"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "drawing-window",
+      "axis": "h",
+      "c": -0.07619999999999999,
+      "a": 7.2,
+      "b": 8.9,
+      "kind": "window",
+      "rooms": [
+        "drawing"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "drawing-east-window",
+      "axis": "v",
+      "c": 10.4394,
+      "a": 2.02,
+      "b": 3.1,
+      "kind": "window",
+      "rooms": [
+        "drawing"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "bed2-window",
+      "axis": "h",
+      "c": 12.1158,
+      "a": 1.05,
+      "b": 2.8,
+      "kind": "window",
+      "rooms": [
+        "bed2"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "bed2-west-window",
+      "axis": "v",
+      "c": -0.07619999999999999,
+      "a": 9.45,
+      "b": 10.65,
+      "kind": "window",
+      "rooms": [
+        "bed2"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "bed3-window",
+      "axis": "h",
+      "c": 12.1158,
+      "a": 9,
+      "b": 10.5,
+      "kind": "window",
+      "rooms": [
+        "bed3"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "kitchen-window",
+      "axis": "v",
+      "c": 10.5918,
+      "a": 4.35,
+      "b": 5.35,
+      "kind": "window",
+      "rooms": [
+        "kitchen"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "bath1-window",
+      "axis": "v",
+      "c": -0.07619999999999999,
+      "a": 4.15,
+      "b": 4.65,
+      "kind": "window",
+      "rooms": [
+        "bath1"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "bath2-window",
+      "axis": "v",
+      "c": -0.07619999999999999,
+      "a": 6.8,
+      "b": 7.3,
+      "kind": "window",
+      "rooms": [
+        "bath2"
+      ],
+      "assumed": true
+    },
+    {
+      "id": "bath3-window",
+      "axis": "h",
+      "c": 6.0198,
+      "a": 10.86,
+      "b": 11.36,
+      "kind": "window",
+      "rooms": [
+        "bath3"
+      ],
+      "assumed": true
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "scale",
+      "title": "Dimensioned reconstruction, not a measured survey",
+      "detail": "The raster is not uniformly to scale. Labeled clear dimensions are exact conversions; junction offsets are inferred. Exterior shape is not derived from the advertised 1554 ft²."
+    },
+    {
+      "id": "doors",
+      "title": "Door and window positions are provisional",
+      "detail": "Openings follow visible wall interruptions where legible. Exact widths, hinges, door swings, glazing and the third bathroom access cannot be resolved reliably. Bathroom 3 access from Bedroom 3 is assumed."
+    },
+    {
+      "id": "balcony",
+      "title": "Balcony label differs from the brief",
+      "detail": "The source appears to read 9′ × 2′6″, not approximately 6′ × 2′6″. The reconstruction uses 9′. The narrow balcony is not wheelchair accessible."
+    },
+    {
+      "id": "store",
+      "title": "Store label differs from the brief",
+      "detail": "The source appears to read 4′6″ × 6′0″, not 6′6″. Source dimensions are used."
+    },
+    {
+      "id": "powder",
+      "title": "Powder room depth inferred",
+      "detail": "3′6″ width appears legible; 6′ depth and east-side drawing-room entry are inferred. The user may revise these in the coordinate JSON."
+    },
+    {
+      "id": "standards",
+      "title": "Construction standards assumed",
+      "detail": "152.4 mm partitions, 3.048 m ceiling, 2.1336 m door height, 1.65 m eye height; 0.9 m bedroom doors, 0.8 m bath doors, 0.75 m powder door. Structural wall thickness and compass orientation are unknown. Sunlight direction is illustrative."
+    },
+    {
+      "id": "furniture",
+      "title": "Furniture approximated from the raster",
+      "detail": "Bed, sofa and dining positions follow the image where readable. Exact products, depths, cabinetry, finishes, fixtures, ACs, fans and ceilings are design assumptions. Lounge furniture is sized to retain an eastern walking route."
+    },
+    {
+      "id": "area",
+      "title": "Advertised area is a reference",
+      "detail": "1383 ft² net + 171 ft² circulation = 1554 ft² as printed. Modeled room sum and outer footprint are reported independently and are not asserted to match this marketing figure."
+    }
+  ]
+}

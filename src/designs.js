@@ -1,0 +1,13 @@
+export const presets = [
+ {id:'luxury',name:'Modern Luxury Karachi',short:'Modern Luxury',subtitle:'Marble, walnut & warm brass',palette:['#e9e2d5','#9c7956','#43473e'],wall:'#f1ece3',floor:'marble',wood:'#765337',fabric:'#d4c4a9',accent:'#586151',metal:'#b59351',rug:'#c3ac8c',light:1.0,ceiling:'coffered',sofa:'tailored',bed:'upholstered',cabinet:'fluted',cost:1.5},
+ {id:'traditional',name:'Traditional Pakistani',short:'Traditional Pakistani',subtitle:'Carved wood & heritage textiles',palette:['#e3caa5','#683f2f','#8d3e38'],wall:'#e9dcc6',floor:'tile',wood:'#58351e',fabric:'#94704c',accent:'#7b3537',metal:'#bc995b',rug:'#7e3434',light:.85,ceiling:'coffered',sofa:'classic',bed:'carved',cabinet:'shaker',cost:1.15},
+ {id:'minimal',name:'Minimalist Modern',short:'Minimalist Modern',subtitle:'Soft whites & quiet geometry',palette:['#f0eee5','#c0b59f','#9daca5'],wall:'#f5f3ec',floor:'tile',wood:'#c3ad8d',fabric:'#e6e1d6',accent:'#8d9c90',metal:'#77776c',rug:'#dfdacd',light:1.15,ceiling:'plain',sofa:'low',bed:'platform',cabinet:'flat',cost:.9},
+ {id:'contemporary',name:'Premium Contemporary',short:'Premium Contemporary',subtitle:'Stone, sculptural forms & oak',palette:['#d7d2c9','#6a6c64','#aa8767'],wall:'#dfdcd4',floor:'marble',wood:'#7d6049',fabric:'#aaa69a',accent:'#52635b',metal:'#67635b',rug:'#9a978d',light:.95,ceiling:'floating',sofa:'curved',bed:'upholstered',cabinet:'fluted',cost:1.85},
+ {id:'budget',name:'Budget-Friendly Karachi',short:'Budget-Friendly',subtitle:'Ceramic tiles & practical comfort',palette:['#efe3cd','#956442','#557b78'],wall:'#f0e5d2',floor:'tile',wood:'#966d48',fabric:'#b3a086',accent:'#557b78',metal:'#a2a19a',rug:'#9c7b5d',light:1.05,ceiling:'plain',sofa:'practical',bed:'simple',cabinet:'flat',cost:.65},
+ {id:'japandi',name:'Scandinavian / Japandi',short:'Scandi / Japandi',subtitle:'Pale oak, linen & earthy greens',palette:['#e7dfce','#b5966c','#747f65'],wall:'#ede8db',floor:'wood',wood:'#b49a73',fabric:'#ded5bf',accent:'#7c8669',metal:'#6e6a5b',rug:'#b8b095',light:1.12,ceiling:'plain',sofa:'low',bed:'platform',cabinet:'slatted',cost:1.2}
+];
+export const presetById=Object.fromEntries(presets.map(p=>[p.id,p]));
+export const defaultDesign={preset:'luxury',overrides:{}};
+export function roomDesign(design,id){const o=design.overrides[id]||{};return {...presetById[design.preset],...presetById[o.preset],...o};}
+export const rates={painting:210,flooring:850,cabinetry:4500,furniture:850000,lighting:110000,fixtures:195000,labor:210000};
+export function estimate(design,custom=rates){const area=1383;const factor=presetById[design.preset].cost;return Object.entries(custom).map(([key,value])=>({key,amount:Math.round(value*(key==='painting'?area*2.5:key==='flooring'?area:key==='cabinetry'?95:1)*factor)}));}

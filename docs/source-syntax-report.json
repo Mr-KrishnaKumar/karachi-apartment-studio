@@ -1,0 +1,34 @@
+{
+  "parser": "@babel/parser 7.29.9, JSX enabled",
+  "files": [
+    {
+      "file": "Scene.jsx",
+      "passed": true
+    },
+    {
+      "file": "architecture.js",
+      "passed": true
+    },
+    {
+      "file": "designs.js",
+      "passed": true
+    },
+    {
+      "file": "furniture.js",
+      "passed": true
+    },
+    {
+      "file": "main.jsx",
+      "passed": true
+    },
+    {
+      "file": "materials.js",
+      "passed": true
+    },
+    {
+      "file": "physics.js",
+      "passed": true
+    }
+  ],
+  "limitation": "Parsing does not verify dependency compatibility, a Vite build or browser behavior."
+}
